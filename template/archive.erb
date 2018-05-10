@@ -1,0 +1,11 @@
+<section class="container">
+  <h1><%= @model['title'] %></h1>
+<% if @model['description'] -%>
+  <p><%= @model['description'] %></p>
+<% end -%>
+  <ul class="archive-list">
+<% @model['image_pages'].each do |page| -%>
+    <li><a href="<%= href page.link %>"><%= page.model['title'] %></a></li>
+<% end -%>
+  </ul>
+</section>

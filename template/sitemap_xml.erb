@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<% @model['pages'].each do |page| -%>
+  <url>
+    <loc><%= absolute_url @model['site']['domain'], page.link %></loc>
+<% if page.model['image'] && page.link != 'index.html' -%>
+    <image:image>
+      <image:loc><%= absolute_url @model['site']['domain'], page.model['image'] %></image:loc>
+      <image:title><%= decode_html_entities(page.model['title']) %></image:title>
+<% if page.model['description'] -%>
+      <image:caption><%= decode_html_entities(page.model['description']) %></image:caption>
+<% end -%>
+      <image:license>https://creativecommons.org/licenses/by-nc-nd/4.0/deed.hu</image:license>
+    </image:image>
+<% end -%>
+  </url>
+<% end -%>
+</urlset>
