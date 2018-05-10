@@ -1,0 +1,55 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="<%= @model['site']['author'] %>">
+<% if @model['meta'] && @model['meta']['description'] -%>
+  <meta name="description" content="<%= @model['meta']['description'] %>">
+<% elsif @model['description'] -%>
+  <meta name="description" content="<%= @model['description'] %>">
+<% end -%>
+  <meta name="theme-color" content="#469b9d">
+  <meta name="twitter:card" content="summary">
+<% if @model['meta'] && @model['meta']['title'] -%>
+  <meta property="og:title" content="<%= @model['meta']['title'] %>">
+<% else -%>
+  <meta property="og:title" content="<%= @model['title'] %> &ndash; <%= @model['site']['name'] %>">
+<% end -%>
+<% if @model['meta'] && @model['meta']['description'] -%>
+  <meta property="og:description" content="<%= @model['meta']['description'] %>">
+<% elsif @model['description'] -%>
+  <meta property="og:description" content="<%= @model['description'] %>">
+<% end -%>
+<% if @model['meta'] && @model['meta']['type'] -%>
+  <meta property="og:type" content="<%= @model['meta']['type'] %>">
+<% else -%>
+  <meta property="og:type" content="article">
+<% end -%>
+  <meta property="og:url" content="<%= absolute_url @model['site']['domain'] %>">
+<% if @model['meta'] && @model['meta']['image'] -%>
+  <meta property="og:image" content="<%= absolute_url @model['site']['domain'], @model['meta']['image'] %>">
+<% elsif @model['image'] -%>
+  <meta property="og:image" content="<%= absolute_url @model['site']['domain'], @model['image'] %>">
+<% end -%>
+  <meta property="og:site_name" content="<%= @model['site']['name'] %>">
+  <meta property="og:locale" content="<%= @model['site']['locale'] %>">
+<% if @model['meta'] && @model['meta']['canonical'] -%>
+  <link rel="canonical" href="<%= absolute_url @model['site']['domain'], @model['meta']['canonical'] %>">
+<% else -%>
+  <link rel="canonical" href="<%= absolute_url @model['site']['domain'] %>">
+<% end -%>
+<% if @model['meta'] && @model['meta']['title'] -%>
+  <title><%= @model['meta']['title'] %></title>
+<% else -%>
+  <title><%= @model['title'] %> &ndash; <%= @model['site']['name'] %></title>
+<% end -%>
+  <link rel="stylesheet" href="<%= href 'asset/css/abrascet.min.css' %>">
+  <link rel="shortcut icon" href="<%= href 'asset/img/icon/favicon.png' %>">
+  <script defer src="<%= href 'asset/js/abrascet.min.js' %>"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B42HQXM68B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B42HQXM68B');
+  </script>
+</head>

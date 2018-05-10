@@ -1,0 +1,11 @@
+---
+site:
+  lang: hu
+  locale: hu_HU
+  name: &siteName Ábrás Cet
+  author: Bata Gábor
+  domain: https://www.abras-cet.hu
+navigation:
+  home: *siteName
+  archive: Képek
+  about: A cetről

@@ -1,0 +1,16 @@
+<nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="<%= href @model['pages']['home'].link %>">
+      <img src="<%= href 'asset/img/site/abras-cet-logo.webp' %>" class="img" alt="<%= @model['site']['name'] %>" onerror="this.onerror=null; this.src='<%= href 'asset/img/site/abras-cet-logo.png' %>'" width="600" height="128">
+    </a>
+    <a id="navigation-toggle" class="navigation-toggle float-right" href="#">&equiv;</a>
+    <ul id="navigation-list" class="navigation-list float-right">
+      <li class="navigation-item">
+        <a class="navigation-link" href="<%= href @model['pages']['archive'].link %>"><%= @model['navigation']['archive'] %></a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="<%= href @model['pages']['about'].link %>"><%= @model['navigation']['about'] %></a>
+      </li>
+    </ul>
+  </section>
+</nav>

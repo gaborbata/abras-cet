@@ -1,0 +1,44 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+<%# Linked data for images -%>
+<% if @model['image'] -%>
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<%= absolute_url @model['site']['domain'] %>"
+  },
+  "headline": "<%= @model['title'] %>",
+  "image": {
+    "@type": "ImageObject",
+    "url": "<%= absolute_url @model['site']['domain'], @model['image'] %>",
+    "width": <%= @model['width'] %>,
+    "height": <%= @model['height'] %>
+  },
+  "datePublished": "<%= @model['date'] %>",
+  "dateModified": "<%= @model['date'] %>",
+<% else -%>
+<%# Linked data for generic pages -%>
+  "@type": "WebPage",
+  "name": "<%= @model['title'] %>",
+<% end -%>
+<% if @model['description'] -%>
+  "description": "<%= @model['description'] %>",
+<% end -%>
+  "author": {
+    "@type": "Person",
+    "name": "<%= @model['site']['author'] %>"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "<%= @model['site']['name'] %>",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "<%= absolute_url @model['site']['domain'], 'asset/img/site/abras-cet-org.png' %>",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.hu"
+}
+</script>

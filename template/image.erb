@@ -1,0 +1,66 @@
+<section class="container">
+  <div class="image-container">
+    <h1 class="image-title"><%= @model['title'] %></h1>
+<% if @model['link'] != @link -%>
+    <a href="<%= href @model['link'] %>">
+      <img src="<%= href @model['image'] %>" alt="<%= @model['title'] %>" width="<%= @model['width'] %>" height="<%= @model['height'] %>">
+    </a>
+<% else -%>
+    <img src="<%= href @model['image'] %>" alt="<%= @model['title'] %>" width="<%= @model['width'] %>" height="<%= @model['height'] %>">
+<% end -%>
+<% if @model['description'] -%>
+    <p class="image-description"><%= @model['description'] %></p>
+<% end -%>
+  </div>
+  <div class="pagination">
+<%# first -%>
+<% if @model['first'] -%>
+    <!--googleoff: anchor--><a class="button" href="<%= href @model['first'] %>">
+      &lt;&lt; <span class="pagination-caption">Első</span>
+    </a>
+    <!--googleon: anchor-->
+<% else -%>
+    <!--googleoff: index--><span class="button button-outline">
+      &lt;&lt; <span class="pagination-caption">Első</span>
+    </span>
+    <!--googleon: index-->
+<% end -%>
+<%# prev -%>
+<% if @model['prev'] -%>
+    <!--googleoff: anchor--><a class="button" href="<%= href @model['prev'] %>">
+      &lt; <span class="pagination-caption">Előző</span>
+    </a>
+    <!--googleon: anchor-->
+<% else -%>
+    <!--googleoff: index--><span class="button button-outline">
+      &lt; <span class="pagination-caption">Előző</span>
+    </span>
+    <!--googleon: index-->
+<% end -%>
+<%# next -%>
+<% if @model['next'] -%>
+    <!--googleoff: anchor--><a class="button" href="<%= href @model['next'] %>">
+      <span class="pagination-caption">Következő</span> &gt;
+    </a>
+    <!--googleon: anchor-->
+<% else -%>
+    <!--googleoff: index--><span class="button button-outline">
+      <span class="pagination-caption">Következő</span> &gt;
+    </span>
+    <!--googleon: index-->
+<% end -%>
+<%# last -%>
+<% if @model['last'] -%>
+    <!--googleoff: anchor--><a class="button" href="<%= href @model['pages']['home'].link %>">
+      <span class="pagination-caption">Legújabb</span> &gt;&gt;
+    </a>
+    <!--googleon: anchor-->
+<% else -%>
+    <!--googleoff: index--><span class="button button-outline">
+      <span class="pagination-caption">Legújabb</span> &gt;&gt;
+    </span>
+    <!--googleon: index-->
+<% end -%>
+  </div>
+<%= render "social_share.erb" -%>
+</section>

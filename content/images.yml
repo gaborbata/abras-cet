@@ -1,0 +1,421 @@
+# Images: new entries come first
+# ------------------------------
+# tengerjaro-hajo +
+# torta +
+# laptop +
+# iskolataska +
+# pezsgo +
+---
+toll:
+  title: Toll
+  description: "&ndash; Hogy hívják a félénk tolltartót? &ndash; Attól-tartó&hellip;"
+  image: asset/img/abra/toll.webp
+  date: 2024-01-30
+  width: 700
+  height: 700
+domb:
+  title: Domb
+  description: "Minden kakas úr a maga szemétdombján."
+  image: asset/img/abra/osbun.webp
+  date: "2023-10-19"
+  width: 700
+  height: 376
+csirke:
+  title: Csirke
+  description: "Csirke, jóóó csirke&hellip; &ndash; Leeloo"
+  image: asset/img/abra/csirke.webp
+  date: "2023-02-20"
+  width: 700
+  height: 700
+bacsi:
+  title: Bácsi
+  description: "&ndash; Öregapám, látott már antennát? &ndash; Hát láttam is&hellip; meg ettem is&hellip; &ndash; De hát az fémből van. &ndash; Akkor csak láttam&hellip;"
+  image: asset/img/abra/bacsi.webp
+  date: "2022-11-11"
+  width: 700
+  height: 700
+taxi:
+  title: Taxi
+  description: "A részeg megállítja a taxit: &ndash; Befér ide egy láda sör meg két kiló virsli? &ndash; Be. &ndash; Beeeeöööhhh"
+  image: asset/img/abra/taxi.webp
+  date: "2021-11-29"
+  width: 700
+  height: 700
+kivi:
+  title: Kivi
+  description: "&ndash; A bútorszállítók hová tették a szekrényt? &ndash; Kivitettem velük. &ndash; És ízlett?"
+  image: asset/img/abra/kivi.webp
+  date: "2021-10-11"
+  width: 700
+  height: 700
+furkos-botond:
+  title: Furkós Botond
+  description: "&ndash; Mit tesznek a bunkó emberek télen a kocsijuk kerekére? &ndash; Tahóláncot."
+  image: asset/img/abra/furkos-botond.webp
+  date: "2021-04-20"
+  width: 700
+  height: 700
+bastya:
+  title: Bástya
+  description: "&ndash; Miért nincs a vonaton bástya? &ndash; Mert a vonat nem vár."
+  image: asset/img/abra/bastya.webp
+  date: "2020-07-19"
+  width: 700
+  height: 700
+nyuszi:
+  title: Nyuszi
+  description: "&ndash; Sárgarépa van? &ndash; Nincs nyuszika, csak banán van. &ndash; Akkor irány Bana!"
+  image: asset/img/abra/nyuszi.webp
+  date: "2020-03-01"
+  width: 700
+  height: 700
+belyeg:
+  title: Bélyeg
+  description: "&ndash; Mit gondolsz, melyik gyorsabb: a postagalamb vagy a ló? &ndash; Gyalog a ló&hellip;"
+  image: asset/img/abra/belyeg.webp
+  date: "2020-02-09"
+  width: 700
+  height: 700
+auto:
+  title: Autó
+  description: "&ndash; Mi a különbség egy Trabant és a Ford között? &ndash; A Trabanttal meg lehet fordulni, de a Forddal nem lehet megtrabantulni."
+  image: asset/img/abra/auto.webp
+  date: "2019-12-30"
+  width: 700
+  height: 539
+urasag:
+  title: Uraság
+  description: "&ndash; Jean, evezzen ki a korallzátonyhoz! &ndash; De miért uram? &ndash; Mert haladni kell a korall!"
+  image: asset/img/abra/ur.webp
+  date: "2019-10-27"
+  width: 700
+  height: 700
+polip:
+  title: Polip
+  description: "Székely és a fia polipot fogtak az erdőben. Megszólal a székely: &ndash; Hát, fiam, marhára eltévedtünk!"
+  image: asset/img/abra/polip.webp
+  date: "2019-08-23"
+  width: 700
+  height: 449
+hamburger:
+  title: Hamburger
+  description: "&ndash; Mi az, amikor a hamburger mosolyog? &ndash; Kaján vigyor."
+  image: asset/img/abra/hamburger.webp
+  date: "2019-07-14"
+  width: 700
+  height: 700
+mez:
+  title: Méz
+  description: "Ha egyszer a mézet megszagolta a medve, abba sem hagyja. &ndash; magyar közmondás"
+  image: asset/img/abra/mez.webp
+  date: "2019-07-07"
+  width: 700
+  height: 700
+meleg:
+  title: Meleg
+  description: "Még szerencse, hogy nincs hó! Kinek lenne kedve havat lapátolni ilyen melegben?!"
+  image: asset/img/abra/meleg.webp
+  date: "2019-06-17"
+  width: 700
+  height: 700
+pizza:
+  title: Pizza
+  description: "Vágd azt a pizzát inkább négybe, nem vagyok annyira éhes, hogy hat szeletet megegyek. &ndash; Yogi Berra"
+  image: asset/img/abra/pizza.webp
+  date: "2019-06-10"
+  width: 700
+  height: 700
+hotdog:
+  title: Hot dog
+  description: "Hot dog, magyarul: vifli (kifliben virsli)"
+  image: asset/img/abra/hotdog.webp
+  date: "2019-05-25"
+  width: 700
+  height: 488
+halaszle:
+  title: Halászlé
+  description: Halászlé
+  image: asset/img/abra/halaszle.webp
+  date: "2019-05-11"
+  width: 700
+  height: 700
+majom:
+  title: Majom
+  description: "Nem tudom mit tartogat ez a nap, de maki derül."
+  image: asset/img/abra/majom.webp
+  date: "2019-04-13"
+  width: 700
+  height: 700
+elefant:
+  title: Elefánt
+  description: "&ndash; Honnan tudod hogy az elefánt fönn van a fán? &ndash; A fának van támasztva a biciklije."
+  image: asset/img/abra/elefant.webp
+  date: "2019-03-29"
+  width: 700
+  height: 700
+kutya:
+  title: Kutya
+  description: "Két bolha beszélget: &ndash; Te mit csinálnál, ha nyernél a lottón? &ndash; Hát, először is vennék egy jó nagy kutyát!"
+  image: asset/img/abra/kutya.webp
+  date: "2019-03-23"
+  width: 700
+  height: 700
+homokvar:
+  title: Homokvár
+  description: Csak egy homokvár
+  image: asset/img/abra/homokvar.webp
+  date: "2019-03-03"
+  width: 700
+  height: 700
+cola:
+  title: Cola
+  description: Kólásüveg
+  image: asset/img/abra/cola.webp
+  date: "2019-01-29"
+  width: 700
+  height: 700
+haz:
+  title: Ház
+  description: "Az idő illúzió. (&hellip;) Az ebédidő kétszeresen az. &ndash; Douglas Adams"
+  image: asset/img/abra/haz.webp
+  date: "2019-01-19"
+  width: 700
+  height: 531
+jeg:
+  title: Jég
+  description: "&ndash; Hogy hívják az eszkimó programozót? &ndash; Jégkocka."
+  image: asset/img/abra/jeg.webp
+  date: "2019-01-12"
+  width: 700
+  height: 700
+kaktusz:
+  title: Kaktusz
+  description: "Majdcsak kilyukadunk valahol! &ndash; mondta a lufi a mexikói kaktuszmezőn"
+  image: asset/img/abra/kaktusz.webp
+  date: "2019-01-04"
+  width: 700
+  height: 700
+buek:
+  title: BÚÉK
+  description: Havas téli lepedő borítja a tájat, ilyenkor a jó pezsgő serkenti a májat. Sült malacka vándorol a bendőbe, kívánok sok jót az új esztendőre!
+  image: asset/img/abra/buek.webp
+  date: "2018-12-29"
+  width: 700
+  height: 700
+hideg:
+  title: Hideg
+  description: "A téli mínuszokban is fontos a pozitív hozzáállás: legalább nincs szúnyog!"
+  image: asset/img/abra/hideg.webp
+  date: "2018-12-21"
+  width: 700
+  height: 700
+kalocsai-minta:
+  title: Kalocsai minta
+  description: Kalocsai hímzés
+  image: asset/img/abra/kalocsai-minta.webp
+  date: "2018-12-16"
+  width: 700
+  height: 700
+urhajo:
+  title: Űrhajó
+  description: "&ndash; Mit csinál a szomjas űrhajós? &ndash; Űrkutatás."
+  image: asset/img/abra/urhajo.webp
+  date: "2018-12-08"
+  width: 700
+  height: 700
+narancsle:
+  title: Narancslé
+  description: Itt a narancslét a tét!
+  image: asset/img/abra/narancsle.webp
+  date: "2018-11-30"
+  width: 700
+  height: 700
+kavics:
+  title: Kavics
+  description: "Kavics: megtalálható folyómedrekben és cipők belsejében"
+  image: asset/img/abra/kavics.webp
+  date: "2018-11-24"
+  width: 700
+  height: 700
+osember:
+  title: Ősember
+  description: Ősember ős prémium prémben
+  image: asset/img/abra/osember.webp
+  date: "2018-11-18"
+  width: 700
+  height: 700
+hajo:
+  title: Hajó
+  description: Akkor jó a jó hajó, ha jó a jó hajó hajóvitorlája. (üzenőtábla rajz)
+  image: asset/img/abra/hajo.webp
+  date: "2018-11-09"
+  width: 700
+  height: 393
+kincseslada:
+  title: Kincsesláda
+  description: Nem mind arany, ami fénylik.
+  image: asset/img/abra/kincseslada.webp
+  date: "2018-11-02"
+  width: 700
+  height: 700
+kakukk:
+  title: Kakukk
+  description: Gyalogkakukk fióka (reggeli firka a feleségemnek)
+  image: asset/img/abra/kakukk.webp
+  date: "2018-10-26"
+  width: 700
+  height: 525
+szalami:
+  title: Szalámi
+  description: Minden jó, ha a vége jó (kivéve a szalámi)
+  image: asset/img/abra/szalami.webp
+  date: "2018-10-19"
+  width: 700
+  height: 498
+szep-nap:
+  title: Szép nap
+  description: Szép napot! (reggeli firka a feleségemnek)
+  image: asset/img/abra/szep-nap.webp
+  date: "2018-10-13"
+  width: 700
+  height: 454
+sajt:
+  title: Sajt
+  description: Dr. Stefan új találmánya a stefanbert sajt, amit a camambert, cheddar és parmezán sajtok genetikai keresztezéséből állított elő.
+  image: asset/img/abra/sajt.webp
+  date: "2018-10-05"
+  width: 700
+  height: 700
+dr-stefan:
+  title: Dr. Stefan
+  description: Dr. Stefan sajtkutató, a sajtkészítés tudomány Arany Sajt-díjas professzora
+  image: asset/img/abra/dr-stefan.webp
+  date: "2018-09-28"
+  width: 700
+  height: 700
+banya:
+  title: Banya
+  description: Banya nem csak egy van
+  image: asset/img/abra/banya.webp
+  date: "2018-09-21"
+  width: 700
+  height: 700
+egyiptom:
+  title: Egyiptom
+  description: Piramisok
+  image: asset/img/abra/piramis.webp
+  date: "2018-09-16"
+  width: 700
+  height: 700
+simson-motor:
+  title: Motor
+  description: Simson S50, vagy valami hasonló
+  image: asset/img/abra/motor.webp
+  date: "2018-09-09"
+  width: 700
+  height: 700
+macska:
+  title: Macska
+  description: Házi macska (Felis silvestris catus)
+  image: asset/img/abra/macska.webp
+  date: "2018-09-01"
+  width: 700
+  height: 700
+turista:
+  title: Turista
+  description: Turista (homo irrito itinearius)
+  image: asset/img/abra/turista.webp
+  date: "2018-08-24"
+  width: 700
+  height: 700
+teknos:
+  title: Teknős
+  description: Szárazföldi teknős
+  image: asset/img/abra/teknos.webp
+  date: "2018-08-19"
+  width: 700
+  height: 500
+porcelan-figura:
+  title: Porcelán figura
+  description: Porcelán figura (Herend)
+  image: asset/img/abra/porcelan-figura.webp
+  date: "2018-08-04"
+  width: 700
+  height: 700
+gatyas-beka:
+  title: Gatyás béka
+  description: Csak egy béka gyatyában
+  image: asset/img/abra/gatyas-beka.webp
+  date: "2018-07-29"
+  width: 700
+  height: 700
+rak:
+  title: Rák
+  description: Vörös rák (Gecarcoidea natalis)
+  image: asset/img/abra/rak.webp
+  date: "2018-07-19"
+  width: 700
+  height: 540
+tej:
+  title: Tej
+  description: Mert a tej is megérdemel egy rajzot
+  image: asset/img/abra/tej.webp
+  date: "2018-07-13"
+  width: 700
+  height: 700
+sun:
+  title: Sün
+  description: Sün (Erinaceus roumanicus), avagy kaktuszmalac
+  image: asset/img/abra/sun.webp
+  date: "2018-07-06"
+  width: 700
+  height: 600
+ludas-matyi:
+  title: Lúdas Matyi
+  description: Lúdas Matyi és Márton
+  image: asset/img/abra/ludas-matyi.webp
+  date: "2018-06-30"
+  width: 700
+  height: 700
+szabadsag-szobor-new-york:
+  title: Szabadság-szobor
+  description: Szabadság-szobor (New York)
+  image: asset/img/abra/szabadsag-szobor-new-york.webp
+  date: "2018-06-24"
+  width: 700
+  height: 700
+sia-a-szobakutya:
+  title: Sia
+  description: Sia, a szobakutya
+  image: asset/img/abra/sia.webp
+  date: "2018-06-16"
+  width: 700
+  height: 528
+csillagszemu-juhasz:
+  title: Csillagszemű juhász
+  description: A csillagszemű juhász és az antracit színű puli
+  image: asset/img/abra/csillagszemu-juhasz.webp
+  date: "2018-06-03"
+  width: 700
+  height: 700
+narcisz:
+  title: Nárcisz
+  description: Nárcisz orrtörlő
+  image: asset/img/abra/narcisz.webp
+  date: "2018-05-26"
+  width: 700
+  height: 665
+alma:
+  title: Alma
+  description: Minden nap egy alma, és a doktor al ma
+  image: asset/img/abra/alma.webp
+  date: "2018-05-21"
+  width: 700
+  height: 480
+abras-cet:
+  title: Ábrás Cet
+  description: "&ndash; Hogy hívják a tetovált bálnát? &ndash; Ábrás cet."
+  image: asset/img/abra/abras-cet.webp
+  date: "2018-05-21"
+  width: 700
+  height: 526
